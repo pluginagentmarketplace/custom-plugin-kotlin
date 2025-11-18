@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "0.3",
+  "name": "Developer Roadmap",
+  "version": "1.0.0",
+  "displayName": "Developer Roadmap - 65 Role Learning Paths",
+  "description": "Comprehensive learning roadmaps for 65+ development roles. Interactive guides covering Frontend, Backend, DevOps, AI/ML, Languages, Architecture, and Leadership tracks.",
+  "author": {
+    "name": "Developer Roadmap Community",
+    "url": "https://github.com/kamranahmedse/developer-roadmap"
+  },
+  "repository": {
+    "url": "https://github.com/pluginagentmarketplace/developer-roadmap-plugin"
+  },
+  "keywords": [
+    "learning",
+    "roadmap",
+    "developer",
+    "career-path",
+    "skills",
+    "training",
+    "backend",
+    "frontend",
+    "devops",
+    "ai-ml",
+    "architecture"
+  ],
+  "agents": [
+    {
+      "id": "frontend-web-specialist",
+      "name": "Frontend & Web Development Specialist",
+      "file": "agents/01-frontend-web-specialist.md"
+    },
+    {
+      "id": "backend-database-expert",
+      "name": "Backend & Database Expert",
+      "file": "agents/02-backend-database-expert.md"
+    },
+    {
+      "id": "devops-cloud-architect",
+      "name": "DevOps & Cloud Architecture Architect",
+      "file": "agents/03-devops-cloud-architect.md"
+    },
+    {
+      "id": "languages-mastery-coach",
+      "name": "Programming Languages Mastery Coach",
+      "file": "agents/04-languages-mastery-coach.md"
+    },
+    {
+      "id": "ai-ml-data-specialist",
+      "name": "AI/ML & Data Science Specialist",
+      "file": "agents/05-ai-ml-data-specialist.md"
+    },
+    {
+      "id": "architecture-design-mentor",
+      "name": "Software Architecture & Design Mentor",
+      "file": "agents/06-architecture-design-mentor.md"
+    },
+    {
+      "id": "leadership-specialization-coach",
+      "name": "Engineering Leadership & Specialization Coach",
+      "file": "agents/07-leadership-specialization-coach.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "roadmap",
+      "description": "Explore and select a learning roadmap by role"
+    },
+    {
+      "name": "roles",
+      "description": "Browse all 65+ available development roles"
+    },
+    {
+      "name": "learn",
+      "description": "Start a guided learning path with recommended resources"
+    },
+    {
+      "name": "progress",
+      "description": "Track your learning progress and milestones"
+    }
+  ],
+  "skills": [
+    {
+      "id": "frontend-technologies",
+      "name": "Frontend Technologies",
+      "category": "frontend"
+    },
+    {
+      "id": "backend-frameworks",
+      "name": "Backend Frameworks",
+      "category": "backend"
+    },
+    {
+      "id": "devops-tools",
+      "name": "DevOps & Cloud Tools",
+      "category": "devops"
+    },
+    {
+      "id": "programming-languages",
+      "name": "Programming Languages",
+      "category": "languages"
+    },
+    {
+      "id": "ai-ml-frameworks",
+      "name": "AI/ML & Data Frameworks",
+      "category": "ai-ml"
+    },
+    {
+      "id": "architecture-patterns",
+      "name": "Architecture Patterns",
+      "category": "architecture"
+    },
+    {
+      "id": "leadership-skills",
+      "name": "Leadership & Specialization Skills",
+      "category": "leadership"
+    }
+  ]
+}
