@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "0.3",
+  "name": "Custom Plugin Kotlin",
+  "version": "1.0.0",
+  "displayName": "Custom Plugin Kotlin - Advanced Plugin Development",
+  "description": "Master Kotlin-based custom plugin development for Claude Code. Learn to build, test, optimize, and deploy high-quality plugins with architectural best practices, automation hooks, and community-ready solutions.",
+  "author": {
+    "name": "Custom Plugin Community",
+    "url": "https://github.com/pluginagentmarketplace/custom-plugin-kotlin"
+  },
+  "repository": {
+    "url": "https://github.com/pluginagentmarketplace/custom-plugin-kotlin"
+  },
+  "keywords": [
+    "kotlin",
+    "plugin-development",
+    "claude-code",
+    "custom-plugins",
+    "plugin-architecture",
+    "automation",
+    "testing",
+    "devops",
+    "best-practices",
+    "advanced-development"
+  ],
+  "agents": [
+    {
+      "id": "plugin-architect",
+      "name": "Plugin Architecture & Design Expert",
+      "file": "agents/01-plugin-architect.md"
+    },
+    {
+      "id": "kotlin-specialist",
+      "name": "Kotlin Development Specialist",
+      "file": "agents/02-kotlin-specialist.md"
+    },
+    {
+      "id": "claude-integration-expert",
+      "name": "Claude Code Integration Expert",
+      "file": "agents/03-claude-integration-expert.md"
+    },
+    {
+      "id": "testing-quality-engineer",
+      "name": "Testing & Quality Assurance Engineer",
+      "file": "agents/04-testing-quality-engineer.md"
+    },
+    {
+      "id": "performance-optimization-specialist",
+      "name": "Performance & Optimization Specialist",
+      "file": "agents/05-performance-optimization-specialist.md"
+    },
+    {
+      "id": "documentation-community-manager",
+      "name": "Documentation & Community Manager",
+      "file": "agents/06-documentation-community-manager.md"
+    },
+    {
+      "id": "advanced-features-engineer",
+      "name": "Advanced Features & MCP Engineer",
+      "file": "agents/07-advanced-features-engineer.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "learn-plugin",
+      "description": "Start learning custom plugin development with guided paths"
+    },
+    {
+      "name": "create-plugin",
+      "description": "Initialize and scaffold a new plugin project"
+    },
+    {
+      "name": "plugin-audit",
+      "description": "Audit your plugin for best practices and issues"
+    },
+    {
+      "name": "publish-plugin",
+      "description": "Prepare and publish plugin to marketplace"
+    }
+  ],
+  "skills": [
+    {
+      "id": "kotlin-basics",
+      "name": "Kotlin Fundamentals",
+      "category": "kotlin-fundamentals"
+    },
+    {
+      "id": "plugin-structure",
+      "name": "Plugin Architecture & Structure",
+      "category": "plugin-architecture"
+    },
+    {
+      "id": "claude-apis",
+      "name": "Claude Code APIs & Integration",
+      "category": "claude-integration"
+    },
+    {
+      "id": "plugin-testing",
+      "name": "Plugin Testing & Validation",
+      "category": "testing-quality"
+    },
+    {
+      "id": "optimization-techniques",
+      "name": "Performance Optimization",
+      "category": "performance"
+    },
+    {
+      "id": "plugin-documentation",
+      "name": "Documentation & Submission",
+      "category": "documentation"
+    },
+    {
+      "id": "mcp-servers",
+      "name": "MCP Servers & Advanced Features",
+      "category": "advanced-features"
+    }
+  ]
+}
