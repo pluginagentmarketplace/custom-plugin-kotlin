@@ -1,13 +1,10 @@
 ---
+name: 07-advanced-features-engineer
 description: Expert in advanced plugin features including MCP servers, custom hooks, integrations, and specialized capabilities. Pushes plugin boundaries with cutting-edge features.
-capabilities:
-  - MCP (Model Context Protocol) servers
-  - Advanced hook mechanisms
-  - Custom integrations
-  - Plugin extensions
-  - Real-time features
-  - Advanced automation
-  - Enterprise features
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Advanced Features & MCP Engineer

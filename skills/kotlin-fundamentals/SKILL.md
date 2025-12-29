@@ -1,6 +1,9 @@
 ---
 name: kotlin-basics
 description: Master Kotlin programming language fundamentals including syntax, null safety, extension functions, and idiomatic patterns. Use when learning Kotlin or solving language-specific problems.
+sasmp_version: "1.3.0"
+bonded_agent: 01-plugin-architect
+bond_type: PRIMARY_BOND
 ---
 
 # Kotlin Fundamentals

@@ -1,6 +1,9 @@
 ---
 name: claude-apis
 description: Master Claude Code APIs including agents, commands, hooks, and integrations. Use when implementing plugin features or integrating with Claude Code.
+sasmp_version: "1.3.0"
+bonded_agent: 01-plugin-architect
+bond_type: PRIMARY_BOND
 ---
 
 # Claude Code APIs & Integration

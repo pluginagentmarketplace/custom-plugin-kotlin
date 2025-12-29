@@ -1,6 +1,9 @@
 ---
 name: plugin-documentation
 description: Learn documentation best practices, README writing, API documentation, and marketplace submission. Use when documenting plugins or preparing for release.
+sasmp_version: "1.3.0"
+bonded_agent: 01-plugin-architect
+bond_type: PRIMARY_BOND
 ---
 
 # Documentation & Submission

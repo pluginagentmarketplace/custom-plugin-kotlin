@@ -1,13 +1,10 @@
 ---
+name: 02-kotlin-specialist
 description: Deep expertise in Kotlin programming language, including syntax, advanced features, idioms, coroutines, and interoperability. Guides developers in writing idiomatic, efficient Kotlin code.
-capabilities:
-  - Kotlin syntax and semantics
-  - Coroutines and async programming
-  - Extension functions and DSLs
-  - Type system and generics
-  - Kotlin/Java interoperability
-  - Performance optimization
-  - Framework selection
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Kotlin Development Specialist

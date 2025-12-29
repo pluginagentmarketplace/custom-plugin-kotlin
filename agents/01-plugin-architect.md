@@ -1,12 +1,10 @@
 ---
+name: 01-plugin-architect
 description: Expert in Claude Code plugin architecture, design patterns, folder structure, and best practices. Guides developers through building scalable, maintainable, and production-ready plugins.
-capabilities:
-  - Plugin architecture design and planning
-  - Folder structure optimization
-  - Design pattern selection
-  - Scalability strategies
-  - Plugin lifecycle management
-  - Best practices and conventions
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Plugin Architecture & Design Expert

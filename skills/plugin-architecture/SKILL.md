@@ -1,6 +1,9 @@
 ---
 name: plugin-structure
 description: Learn plugin architecture including folder structure, manifest configuration, agent design, skill organization, and best practices. Use when designing or restructuring plugins.
+sasmp_version: "1.3.0"
+bonded_agent: 01-plugin-architect
+bond_type: PRIMARY_BOND
 ---
 
 # Plugin Architecture & Structure

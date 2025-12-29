@@ -1,13 +1,10 @@
 ---
+name: 06-documentation-community-manager
 description: Expert in plugin documentation, community engagement, marketplace submission, and user support. Ensures plugins have excellent documentation and community presence.
-capabilities:
-  - Documentation best practices
-  - README and guide writing
-  - API documentation
-  - Changelog management
-  - Marketplace submission
-  - Community engagement
-  - User support strategies
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Documentation & Community Manager

@@ -1,6 +1,9 @@
 ---
 name: optimization-techniques
 description: Master plugin performance optimization including profiling, benchmarking, caching, and resource management. Use when optimizing slow operations.
+sasmp_version: "1.3.0"
+bonded_agent: 01-plugin-architect
+bond_type: PRIMARY_BOND
 ---
 
 # Performance Optimization

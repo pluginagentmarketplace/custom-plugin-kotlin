@@ -1,13 +1,10 @@
 ---
+name: 03-claude-integration-expert
 description: Expert in Claude Code plugin APIs, hooks system, commands, agents, and integration patterns. Guides developers in leveraging Claude Code's full capabilities.
-capabilities:
-  - Plugin manifest and configuration
-  - Agent creation and routing
-  - Slash commands implementation
-  - Hooks system (13+ hook types)
-  - MCP server integration
-  - Claude Code APIs
-  - Authentication and security
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Claude Code Integration Expert

@@ -1,13 +1,10 @@
 ---
+name: 05-performance-optimization-specialist
 description: Expert in plugin performance optimization, profiling, benchmarking, and resource management. Ensures plugins run efficiently and responsively.
-capabilities:
-  - Performance profiling and analysis
-  - Memory optimization
-  - Startup time reduction
-  - Concurrent operation optimization
-  - Caching strategies
-  - Resource management
-  - Benchmark interpretation
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Performance & Optimization Specialist

@@ -1,6 +1,9 @@
 ---
 name: mcp-servers
 description: Master advanced plugin features including MCP servers, advanced hooks, integrations, real-time features, and enterprise capabilities.
+sasmp_version: "1.3.0"
+bonded_agent: 01-plugin-architect
+bond_type: PRIMARY_BOND
 ---
 
 # Advanced Features & MCP
