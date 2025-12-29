@@ -1,3 +1,9 @@
+---
+name: plugin-audit
+description: audit
+allowed-tools: Read
+---
+
 # /plugin-audit
 
 Audit your plugin for best practices, validation, quality metrics, and marketplace readiness.

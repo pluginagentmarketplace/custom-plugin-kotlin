@@ -1,3 +1,9 @@
+---
+name: publish-plugin
+description: plugin
+allowed-tools: Read
+---
+
 # /publish-plugin
 
 Prepare and publish your plugin to the Claude Code marketplace for community access.

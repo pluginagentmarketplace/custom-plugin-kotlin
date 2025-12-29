@@ -1,3 +1,9 @@
+---
+name: learn-plugin
+description: plugin
+allowed-tools: Read
+---
+
 # /learn-plugin
 
 Start your custom plugin development journey with guided learning paths, structured curriculum, and hands-on projects.

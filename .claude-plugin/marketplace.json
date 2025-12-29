@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-kotlin",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "kotlin-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for kotlin development",
+      "version": "1.0.0"
+    }
+  ]
+}

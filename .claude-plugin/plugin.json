@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.3",
-  "name": "Custom Plugin Kotlin",
+  "name": "kotlin-assistant",
   "version": "1.0.0",
   "displayName": "Custom Plugin Kotlin - Advanced Plugin Development",
   "description": "Master Kotlin-based custom plugin development for Claude Code. Learn to build, test, optimize, and deploy high-quality plugins with architectural best practices, automation hooks, and community-ready solutions.",
@@ -114,5 +114,6 @@
       "name": "MCP Servers & Advanced Features",
       "category": "advanced-features"
     }
-  ]
+  ],
+  "license": "SEE LICENSE IN LICENSE"
 }

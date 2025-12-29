@@ -1,3 +1,9 @@
+---
+name: create-plugin
+description: plugin
+allowed-tools: Read
+---
+
 # /create-plugin
 
 Initialize and scaffold a new plugin project with best practices, folder structure, and example files.
