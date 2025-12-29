@@ -1,9 +1,9 @@
 {
   "schemaVersion": "0.3",
-  "name": "kotlin-assistant",
+  "name": "kotlin-development-assistant",
   "version": "1.0.0",
   "displayName": "Custom Plugin Kotlin - Advanced Plugin Development",
-  "description": "Master Kotlin-based custom plugin development for Claude Code. Learn to build, test, optimize, and deploy high-quality plugins with architectural best practices, automation hooks, and community-ready solutions.",
+  "description": "Kotlin development plugin with specialized agents for Android, multiplatform, and backend development",
   "author": {
     "name": "Custom Plugin Community",
     "url": "https://github.com/pluginagentmarketplace/custom-plugin-kotlin"
@@ -24,41 +24,13 @@
     "advanced-development"
   ],
   "agents": [
-    {
-      "id": "plugin-architect",
-      "name": "Plugin Architecture & Design Expert",
-      "file": "agents/01-plugin-architect.md"
-    },
-    {
-      "id": "kotlin-specialist",
-      "name": "Kotlin Development Specialist",
-      "file": "agents/02-kotlin-specialist.md"
-    },
-    {
-      "id": "claude-integration-expert",
-      "name": "Claude Code Integration Expert",
-      "file": "agents/03-claude-integration-expert.md"
-    },
-    {
-      "id": "testing-quality-engineer",
-      "name": "Testing & Quality Assurance Engineer",
-      "file": "agents/04-testing-quality-engineer.md"
-    },
-    {
-      "id": "performance-optimization-specialist",
-      "name": "Performance & Optimization Specialist",
-      "file": "agents/05-performance-optimization-specialist.md"
-    },
-    {
-      "id": "documentation-community-manager",
-      "name": "Documentation & Community Manager",
-      "file": "agents/06-documentation-community-manager.md"
-    },
-    {
-      "id": "advanced-features-engineer",
-      "name": "Advanced Features & MCP Engineer",
-      "file": "agents/07-advanced-features-engineer.md"
-    }
+    "./agents/01-kotlin-fundamentals.md",
+    "./agents/02-kotlin-android.md",
+    "./agents/03-kotlin-coroutines.md",
+    "./agents/04-kotlin-multiplatform.md",
+    "./agents/05-kotlin-backend.md",
+    "./agents/06-kotlin-testing.md",
+    "./agents/07-kotlin-dsl.md"
   ],
   "commands": [
     {
@@ -79,41 +51,13 @@
     }
   ],
   "skills": [
-    {
-      "id": "kotlin-basics",
-      "name": "Kotlin Fundamentals",
-      "category": "kotlin-fundamentals"
-    },
-    {
-      "id": "plugin-structure",
-      "name": "Plugin Architecture & Structure",
-      "category": "plugin-architecture"
-    },
-    {
-      "id": "claude-apis",
-      "name": "Claude Code APIs & Integration",
-      "category": "claude-integration"
-    },
-    {
-      "id": "plugin-testing",
-      "name": "Plugin Testing & Validation",
-      "category": "testing-quality"
-    },
-    {
-      "id": "optimization-techniques",
-      "name": "Performance Optimization",
-      "category": "performance"
-    },
-    {
-      "id": "plugin-documentation",
-      "name": "Documentation & Submission",
-      "category": "documentation"
-    },
-    {
-      "id": "mcp-servers",
-      "name": "MCP Servers & Advanced Features",
-      "category": "advanced-features"
-    }
+    "./skills/kotlin-fundamentals/SKILL.md",
+    "./skills/kotlin-android/SKILL.md",
+    "./skills/kotlin-coroutines/SKILL.md",
+    "./skills/kotlin-multiplatform/SKILL.md",
+    "./skills/kotlin-ktor/SKILL.md",
+    "./skills/kotlin-testing/SKILL.md",
+    "./skills/kotlin-compose/SKILL.md"
   ],
   "license": "SEE LICENSE IN LICENSE"
 }
