@@ -1,0 +1,9 @@
+# Jetpack Compose Configuration
+compose_version: "1.5.4"
+compiler_version: "1.5.8"
+
+features:
+  - Material3
+  - Navigation
+  - ViewModel integration
+  - Animation

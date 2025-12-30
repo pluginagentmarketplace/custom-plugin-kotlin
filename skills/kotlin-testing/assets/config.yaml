@@ -1,0 +1,12 @@
+# Kotlin Testing Configuration
+frameworks:
+  - JUnit5
+  - MockK
+  - Kotest
+  
+coverage:
+  tool: JaCoCo
+  minimum: 80
+  
+coroutines:
+  test_dispatcher: UnconfinedTestDispatcher

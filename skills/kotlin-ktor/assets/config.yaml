@@ -1,0 +1,10 @@
+# Ktor Configuration
+ktor_version: "2.3.7"
+engine: Netty
+
+features:
+  - ContentNegotiation
+  - Serialization
+  - Authentication
+  - StatusPages
+  - CORS

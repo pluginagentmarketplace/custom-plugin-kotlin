@@ -1,27 +1,25 @@
 {
-  "schemaVersion": "0.3",
+  "schema_version": "1.0.0",
   "name": "kotlin-development-assistant",
-  "version": "1.0.0",
-  "displayName": "Custom Plugin Kotlin - Advanced Plugin Development",
-  "description": "Kotlin development plugin with specialized agents for Android, multiplatform, and backend development",
+  "version": "2.0.0",
+  "description": "Comprehensive Kotlin development plugin with 8 specialized agents and 12 Golden Format skills for Android, multiplatform, and backend development",
   "author": {
-    "name": "Custom Plugin Community",
-    "url": "https://github.com/pluginagentmarketplace/custom-plugin-kotlin"
+    "name": "Dr. Umit Kacar & Muhsin Elcicek",
+    "email": "kacarumit.phd@gmail.com"
   },
-  "repository": {
-    "url": "https://github.com/pluginagentmarketplace/custom-plugin-kotlin"
-  },
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-kotlin",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "kotlin",
-    "plugin-development",
-    "claude-code",
-    "custom-plugins",
-    "plugin-architecture",
-    "automation",
-    "testing",
-    "devops",
-    "best-practices",
-    "advanced-development"
+    "android",
+    "multiplatform",
+    "coroutines",
+    "jetpack-compose",
+    "ktor",
+    "spring-boot",
+    "koin",
+    "hilt",
+    "flow"
   ],
   "agents": [
     "./agents/01-kotlin-fundamentals.md",
@@ -30,25 +28,8 @@
     "./agents/04-kotlin-multiplatform.md",
     "./agents/05-kotlin-backend.md",
     "./agents/06-kotlin-testing.md",
-    "./agents/07-kotlin-dsl.md"
-  ],
-  "commands": [
-    {
-      "name": "learn-plugin",
-      "description": "Start learning custom plugin development with guided paths"
-    },
-    {
-      "name": "create-plugin",
-      "description": "Initialize and scaffold a new plugin project"
-    },
-    {
-      "name": "plugin-audit",
-      "description": "Audit your plugin for best practices and issues"
-    },
-    {
-      "name": "publish-plugin",
-      "description": "Prepare and publish plugin to marketplace"
-    }
+    "./agents/07-kotlin-dsl.md",
+    "./agents/08-kotlin-advanced.md"
   ],
   "skills": [
     "./skills/kotlin-fundamentals/SKILL.md",
@@ -57,7 +38,20 @@
     "./skills/kotlin-multiplatform/SKILL.md",
     "./skills/kotlin-ktor/SKILL.md",
     "./skills/kotlin-testing/SKILL.md",
-    "./skills/kotlin-compose/SKILL.md"
+    "./skills/kotlin-compose/SKILL.md",
+    "./skills/kotlin-spring/SKILL.md",
+    "./skills/kotlin-serialization/SKILL.md",
+    "./skills/kotlin-dsl/SKILL.md",
+    "./skills/kotlin-flow/SKILL.md",
+    "./skills/kotlin-di/SKILL.md"
   ],
-  "license": "SEE LICENSE IN LICENSE"
+  "commands": [
+    "./commands/kotlin-check.md",
+    "./commands/kotlin-new.md",
+    "./commands/kotlin-build.md",
+    "./commands/kotlin-test.md"
+  ],
+  "hooks": {
+    "hooks_config_path": "./hooks/hooks.json"
+  }
 }

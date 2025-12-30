@@ -1,0 +1,19 @@
+# Kotlin Multiplatform Configuration
+targets:
+  - jvm
+  - android
+  - ios
+  - js
+  
+shared_code:
+  - common
+  - jvmAndroid
+  - native
+  
+source_sets:
+  commonMain:
+    dependencies: []
+  androidMain:
+    dependencies: []
+  iosMain:
+    dependencies: []

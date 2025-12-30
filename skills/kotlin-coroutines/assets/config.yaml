@@ -1,0 +1,10 @@
+# Kotlin Coroutines Configuration
+version: "1.7.3"
+
+dispatchers:
+  default: Dispatchers.Default
+  io: Dispatchers.IO
+  main: Dispatchers.Main
+
+structured_concurrency: true
+exception_handling: CoroutineExceptionHandler

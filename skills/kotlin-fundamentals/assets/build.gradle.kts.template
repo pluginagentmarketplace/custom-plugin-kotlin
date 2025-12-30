@@ -1,0 +1,19 @@
+plugins {
+    kotlin("jvm") version "{{KOTLIN_VERSION}}"
+}
+
+group = "{{GROUP_ID}}"
+version = "{{VERSION}}"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(kotlin("stdlib"))
+    testImplementation(kotlin("test"))
+}
+
+kotlin {
+    jvmToolchain(17)
+}

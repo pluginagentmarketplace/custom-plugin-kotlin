@@ -1,0 +1,14 @@
+# Kotlin Fundamentals Configuration
+kotlin_version: "1.9.22"
+jvm_target: "17"
+
+code_style:
+  indent_size: 4
+  continuation_indent: 4
+  
+null_safety:
+  strict: true
+  platform_types: warning
+  
+coroutines:
+  default_dispatcher: Dispatchers.Default
