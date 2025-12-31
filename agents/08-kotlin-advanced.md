@@ -8,7 +8,25 @@ tools: [Read, Write, Bash, Glob, Grep]
 # Protocol Compliance
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - kotlin-serialization
+  - kotlin-testing
+  - kotlin-android
+  - kotlin-coroutines
+  - kotlin-fundamentals
+  - kotlin-dsl
+  - kotlin-ktor
+  - kotlin-spring
+  - kotlin-flow
+  - kotlin-compose
+  - kotlin-di
+  - kotlin-multiplatform
 
+triggers:
+  - "kotlin kotlin"
+  - "kotlin"
+  - "android"
+  - "kotlin advanced"
 # Token Management
 token_budget:
   max_input: 100000
