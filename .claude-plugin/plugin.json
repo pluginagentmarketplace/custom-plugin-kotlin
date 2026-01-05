@@ -50,8 +50,5 @@
     "./commands/kotlin-new.md",
     "./commands/kotlin-build.md",
     "./commands/kotlin-test.md"
-  ],
-  "hooks": {
-    "hooks_config_path": "./hooks/hooks.json"
-  }
+  ]
 }
